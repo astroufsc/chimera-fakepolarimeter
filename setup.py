@@ -1,13 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name='chimera_template',
+    name='chimera_fakepolarimeter',
     version='0.0.1',
-    packages=['chimera_template', 'chimera_template.instruments', 'chimera_template.controllers'],
+    packages=['chimera_fakepolarimeter', 'chimera_fakepolarimeter.instruments'],
     scripts=[],
-    url='http://github.com/astroufsc/chimera-template',
+    url='http://github.com/astroufsc/chimera-fakepolarimeter',
     license='GPL v2',
     author='William Schoenell',
     author_email='william@iaa.es',
-    description='Template for chimera plugins'
+    description='A fake polarimeter instrument driver for chimera'
 )
